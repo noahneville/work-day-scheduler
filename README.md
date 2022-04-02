@@ -8,7 +8,7 @@ Work Day Scheduler provides a simple way to plan each hour of your day. For each
 
 
 
-![screenshot of live page](./assets/img/screenshot%20live%20page.PNG)
+![screenshot of live page](./assets/img/workday-planner-live-demo.PNG)
 
 
 ##Features
