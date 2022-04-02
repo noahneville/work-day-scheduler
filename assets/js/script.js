@@ -18,7 +18,7 @@ $(document).ready(function () {
     localStorage.setItem(key, value);
   });
 
-  // uses jQuery to target text area and set it's value to the text previously saved in localStorage
+  // uses jQuery to target text area and set its value to the text previously saved in localStorage
   $("#tb-9 .description").val(localStorage.getItem("tb-9"));
   $("#tb-10 .description").val(localStorage.getItem("tb-10"));
   $("#tb-11 .description").val(localStorage.getItem("tb-11"));
@@ -34,7 +34,6 @@ $(document).ready(function () {
   function checkTime() {
     $(".time-block").each(function () {
       var timeBlockHr = parseInt($(this).attr("id").split("-")[1]);
-      console.log(timeBlockHr);
 
       if (timeBlockHr < hour) {
         $(this).addClass("past");
@@ -49,7 +48,7 @@ $(document).ready(function () {
     });
   }
 
-  //   calls checkTime and setDate function
+  // calls checkTime and setDate function
   checkTime();
   setDate();
 });
